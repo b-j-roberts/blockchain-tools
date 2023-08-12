@@ -1,0 +1,17 @@
+[
+  {
+    "name": "MyBlockchains",
+    "url": "git@github.com:b-j-roberts/MyBlockchains.git",
+    "branch": "master"
+  },
+  {
+    "name": "optimism",
+    "url": "https://github.com/ethereum-optimism/optimism.git",
+    "commit": "be461bd07592146e0a8ed48772446df881078777"
+  },
+  {
+    "name": "op-geth",
+    "url": "https://github.com/ethereum-optimism/op-geth.git",
+    "commit": "8f8af46ec728a79137d449891fc1827e1763cd7e"
+  }
+]
