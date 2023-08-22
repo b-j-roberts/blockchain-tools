@@ -15,7 +15,7 @@ pnpm install
 make op-node op-batcher op-proposer
 pnpm build
 
-cd $REPOS_DIR/op-geth
+cd $HOME/workspace/blockchain/op-curl-geth
 make geth
 
 cd $REPOS_DIR/optimism/packages/contracts-bedrock

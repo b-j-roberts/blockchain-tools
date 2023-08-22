@@ -21,11 +21,11 @@ go run cmd/main.go genesis l2 \
 
 openssl rand -hex 32 > jwt.txt
 
-cp genesis.json $REPOS_DIR/op-geth/genesis.json
-cp jwt.txt $REPOS_DIR/op-geth/jwt.txt
+cp genesis.json $HOME/workspace/blockchain/op-curl-geth/genesis.json
+cp jwt.txt $HOME/workspace/blockchain/op-curl-geth/jwt.txt
 
 
-cd $REPOS_DIR/op-geth
+cd $HOME/workspace/blockchain/op-curl-geth
 rm -rf $L2_DATA_DIR
 mkdir -p $L2_DATA_DIR
 ./build/bin/geth --datadir=$L2_DATA_DIR init genesis.json
